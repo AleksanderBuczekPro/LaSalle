@@ -62,7 +62,7 @@
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="title text-center">
-                    <h2 class="heading-semi-bold text-primary">Contactez Nous</h2>
+                    <h2 class="heading-semi-bold">Contactez Nous</h2>
                     <p class="lead text-muted">
                         Vous voulez en savoir plus.
                     </p>
