@@ -10,12 +10,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">License</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Privacy Policy</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Terms and Conditions</a>
-                                </li>
                             </ul>
                             <p class="mt-4 text-muted">
                                 &copy; 2017 Wired UI Kit. A FREE Bootstrap 4 UI Kit by 
