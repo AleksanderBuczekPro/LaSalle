@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Info - La salle</title>
+        <meta name="description" content="La salle" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap 4-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <!--custom css-->
+        <link rel="stylesheet" href="css/components.css" />
+        <link rel="stylesheet" href="css/colors.css" />
+        <link rel="stylesheet" href="css/admin.css" />
+
+    </head>
+    <body>
+
+        <!--header-->
+        <nav class="navbar navbar-toggleable-md fixed-top sticky-navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-w60.png" class="nav-brand-logo" />
+                </a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="index.html">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="salle.html">La salle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="activite.html">Les activité</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container">
+            <article class="col-md-6">
+                <form class="container form-horizontal" action="php/client.php">
+                        <h2 class="text-center">Client</h2>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="nom">Nom :</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" id="nom" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="prenom">Prenom :</label>
+                            <div class="col-md-9">  
+                                <input type="text" class="form-control" id="prenom" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="mail">Mail :</label>
+                            <div class="col-md-9">  
+                                <input type="text" class="form-control" id="mail" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3" for="mdp">Mot de passe :</label>
+                            <div class="col-md-9">  
+                                <input type="password" class="form-control" id="mdp" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control btn btn-success col-md-12">Envoyer</button>
+                        </div>
+                </form>
+            </article>
+            <article class="col-md-6">
+                <form class="cointainer form-horizontal" action="php/activite.php">
+                    <h2 class="text-center">Activité</h2>
+                    <div class="form-group">
+                        <label class="control-label col-md-3" for="libelle">Libellé</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="libelle" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3" for="prof">Prof</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="prof" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3" for="date">Date Heure :</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="date" placeholder="20YY-MM-JJ HH:MM:SS" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                            <button type="submit" class="form-control btn btn-success col-md-12">Envoyer</button>
+                        </div>
+                </form>
+            </article>
+            
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!--custom js-->
+        <script src="js/app.js"></script>
+    </body>
+</html>

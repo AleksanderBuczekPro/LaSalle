@@ -1,0 +1,42 @@
+.navbar{
+	background-color: #000;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+#navlink a{
+	color:#fff;
+}
+#features{
+	background-color: #f2f2f2;
+}
+.fluid-container > .row{
+	max-width: 1903px;	
+}
+	#features .image img{
+		width: 634px;
+	}
+	#features article{
+		background-color: #fff;
+		padding: 0;
+		width: 650px;
+	}
+
+	#features .content{
+		margin: 40px;
+	}
+
+
+#activite td{
+	width: 160px;
+	height: 30px;
+}
+#activite table button{
+	width: 100%;
+}
+#activite h2{
+	margin-bottom: 80px;
+}
+.text-primary{
+   color:#fff!important
+}
