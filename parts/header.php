@@ -38,7 +38,7 @@
                             <a class="nav-link page-scroll" href="index.php#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll text-primary" data-toggle="modal" data-target="#myModal" href="#myModal">Connexion</a>
+                            <a class="nav-link page-scroll text-primary" data-toggle="modal" data-target="#myModal">Connexion</a>
 
                             <!-- Modal -->
                             <div id="myModal" class="modal fade" role="dialog">
