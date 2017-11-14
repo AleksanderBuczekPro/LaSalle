@@ -1,0 +1,24 @@
+<?php
+
+	$nom = $_POST['nom'];
+	$email = $_POST['email'];
+	$message = $_POST['message'];
+
+	$connecteur = new PDO('mysql:host=localhost;dbname=salle_fitness', 'salledesport', 'hopeforce3'); 
+
+	$connecteur->exec("INSERT INTO formulaire (nom, email, message, dateEnvoi) VALUES ('". $nom . "', '" . $email . "', '" . $message . "', NOW())");
+
+	/*print_r($connecteur->errorInfo());
+
+	$date = date('d-m-Y');
+
+
+	print_r($date);
+
+	var_dump($nom, $email, $message);*/
+
+
+
+	header("Location: ../index.php");
+
+?>
