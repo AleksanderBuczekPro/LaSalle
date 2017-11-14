@@ -23,9 +23,6 @@
 
             <!--features-->
             <!--features-->
-            <?php 
-                require_once('parts/header.php');
-            ?>
             <section class="bg-alt" id="activite">
                 <div class="container">
 

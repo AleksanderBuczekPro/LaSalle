@@ -755,7 +755,6 @@ body.modal-open,
 .modal-content .modal-header button {
     position: absolute;
     right: 27px;
-    top: 24px;
     outline: 0; 
 }
 .modal-content .modal-header .title {
