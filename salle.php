@@ -2,6 +2,7 @@
     require_once('parts/header.php');
 ?>
             <!--header section-->
+        <div class="wrapper">
             <section class="hero-header" id="home" style="background-image: url(img/salle.jpg)">
                 <div class="container">
                     <div class="row">
@@ -31,6 +32,7 @@
                     </div>
                 </div>
             </section>
+        </div>
 <?php 
     require_once('parts/footer.php');
 ?>

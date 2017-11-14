@@ -5,21 +5,19 @@
                         <div class="col-sm-6 offset-sm-3 text-center">
                             <ul class="nav justify-content-center">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">About</a>
+                                    <a class="nav-link active" href="#">A propos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">License</a>
+                                    <a class="nav-link" href="#">Mention Légale</a>
                                 </li>
                             </ul>
                             <p class="mt-4 text-muted">
-                                &copy; 2017 Wired UI Kit. A FREE Bootstrap 4 UI Kit by 
-                                <a href="https://wireddots.com">Wired Dots</a>. Designed by <a href="https://twitter.com/attacomsian">@attacomsian</a>
+                                &copy; 2017 La Salle - Dijon
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
-        </div>
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

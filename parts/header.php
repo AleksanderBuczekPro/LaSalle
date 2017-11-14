@@ -20,7 +20,7 @@
         <nav class="navbar navbar-toggleable-md sticky-navigation">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    <img src="img/logo-w60.png" class="nav-brand-logo" />
+                    <img id="logo" src="img/logo.png" class="nav-brand-logo" />
                 </a>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
@@ -31,7 +31,7 @@
                             <a class="nav-link page-scroll" href="salle.php">La salle</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="activite.php">Les activité</a>
+                            <a class="nav-link page-scroll" href="activite.php">Les activités</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="index.php#contact">Contact</a>
@@ -78,4 +78,3 @@
                 </div>
             </div>
         </nav>
-        <div class="wrapper">
