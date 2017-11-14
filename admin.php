@@ -1,7 +1,7 @@
 <?php 
     require_once('parts/header.php');
 ?>
-<div class="wrapper">
+
     <section class="fluid-container row justify-content-around" id="admin">
     	<article class="col-md-5" id="inscription">
     		<form class="container form-horizontal" action="php/client.php">
@@ -74,7 +74,7 @@
             </form>
     	</article>
     </section>
-</div>
+
 <?php 
     require_once('parts/footer.php');
 ?>
