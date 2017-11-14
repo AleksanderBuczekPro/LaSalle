@@ -22,9 +22,6 @@
             </section>
 
             <!--features-->
-            <?php 
-                require_once('parts/header.php');
-            ?>
             <section class="bg-alt" id="apropos">
                 <div class="container">
                     <div class="row">
