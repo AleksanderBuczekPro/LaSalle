@@ -22,6 +22,9 @@
     </section>
 
             <!--features-->
+            <?php 
+                require_once('parts/header.php');
+            ?>
     <section class="bg-alt" id="features">
         <div class="fluid-container">
             <div class="row">
