@@ -8,11 +8,11 @@
                                     <a class="nav-link active" href="#">A propos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Mention Légale</a>
+                                    <a class="nav-link" href="#">Mentions Légales</a>
                                 </li>
                             </ul>
                             <p class="mt-4 text-muted">
-                                &copy; 2017 La Salle - Dijon
+                                &copy; 2017 La Salle - Dijon 
                             </p>
                         </div>
                     </div>
