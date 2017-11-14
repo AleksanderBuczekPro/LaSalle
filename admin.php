@@ -4,36 +4,36 @@
 
     <section class="fluid-container row justify-content-around" id="admin">
     	<article class="col-md-5" id="inscription">
-    		<form class="container form-horizontal" action="php/client.php">
+    		<form class="container form-horizontal" method="post" action="form/inscription.php">
                 <h2 class="text-center">Client</h2>
                 <div class="form-group">
                     <label class="control-label col-md-3" for="numclient">N°Client :</label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" id="numclient" required>
+                        <input type="text" class="form-control" id="numclient" name="numclient" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-md-3" for="nom">Nom :</label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" id="nom" required>
+                        <input type="text" class="form-control" id="nom" name="nom" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-md-3" for="prenom">Prenom :</label>
                     <div class="col-md-9">  
-                        <input type="text" class="form-control" id="prenom" required>
+                        <input type="text" class="form-control" id="prenom" name="prenom" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-md-3" for="mail">Mail :</label>
                     <div class="col-md-9">  
-                        <input type="text" class="form-control" id="mail" required>
+                        <input type="text" class="form-control" id="mail" name="mail" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-md-3" for="mdp">Mot de passe :</label>
                     <div class="col-md-9">  
-                        <input type="password" class="form-control" id="mdp" required>
+                        <input type="password" class="form-control" id="mdp" name="mdp" required>
                     </div>
                 </div>
                 <div class="form-group">
