@@ -11,7 +11,6 @@ if (empty($_SESSION["email"]) or empty($_SESSION['motdepasse'])) {
 }
 else {
     $st = $bdd->query("SELECT email, motdepasse FROM adherent WHERE email='".$_SESSION["email"]."' AND motdepasse='".$_SESSION["motdepasse"]."'")->fetch();
-        $_SESSION['connecte'];
     if ($st['COUNT(*)'] == 1)
         $_SESSION['connecte'];
         header("Location: ../index.php");
