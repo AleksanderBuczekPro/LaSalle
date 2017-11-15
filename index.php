@@ -28,7 +28,7 @@
     <section class="bg-alt" id="features">
         <div class="fluid-container">
             <div class="row">
-                <article class="article offset-lg-1 col-lg-4">
+                <article class="offset-lg-1 col-lg-4">
                         <div class="image">
                             <img src="img/salle.jpg" alt="" />
                         </div>
@@ -43,7 +43,7 @@
                         </div>
                 </article>
 
-                <article class="article offset-lg-2 col-lg-4 offset-lg-1">
+                <article class="offset-lg-2 col-lg-4 offset-lg-1">
                         <div class="image">
                             <img src="img/activite.jpg" alt="" />
                         </div>

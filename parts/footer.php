@@ -19,31 +19,9 @@
                 </div>
             </section>
 
-
-            <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-        
-
-            <!-- Moment.js -->
-
-       
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>
-
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"> </script>
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
-
-            <script type="text/javascript">
-                $("#timepicker, #timepicker2").datetimepicker({
-
-                   format: "HH:mm",
-                    icons: {
-                      up: "fa fa-chevron-up",
-                      down: "fa fa-chevron-down"
-                    }
-                });
-            </script>
-
-            <script src="js/app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!--custom js-->
+        <script src="js/app.js"></script>
     </body>
 </html>

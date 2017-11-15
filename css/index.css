@@ -18,20 +18,16 @@
 .fluid-container > .row{
 	max-width: 1903px;	
 }
-
-	.article .image img{
-		width: 100%;
+	#features .image img{
+		width: 634px;
 	}
 	#features article{
 		background-color: #fff;
 		padding: 0;
 		width: 650px;
-		margin: 0 auto;
-		height: 100%;
-		margin-bottom: 20px;
 	}
 
-	.article .content{
+	#features .content{
 		margin: 40px;
 	}
 

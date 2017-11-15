@@ -124,52 +124,6 @@
                 </div>
             </form>
         </article>
-        
-        <article class="col-md-5" id="coach">
-            <form class="cointainer form-horizontal" action="php/coach.php">
-                <h2 class="text-center">Ajouter nouveau coach</h2>
-                <div class="form-group">
-                    <label class="control-label col-md-3" for="intitule">Nom complet :</label>
-                    <div class="col-md-9">
-                        <input type="text" name="nom" class="form-control" id="intitule" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                <label class="control-label col-md-3" for="coach">Email :</label>
-                    <div class="col-md-9">
-                        <input type="text" name="email" class="form-control" id="coach" required>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                <label class="control-label col-md-3" for="coach">Heure début :</label>
-                    <div class="col-md-9">
-                        <div class='input-group time' id='timepicker'>
-                        <input type='text' class="form-control" />
-                        <span class="input-group-addon">
-                            <span class="fa fa-clock-o"></span>
-                        </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                <label class="control-label col-md-3" for="coach">Heure fin :</label>
-                    <div class="col-md-9">
-                        <div class='input-group time' id='timepicker2'>
-                        <input type='text' class="form-control" />
-                        <span class="input-group-addon">
-                            <span class="fa fa-clock-o"></span>
-                        </span>
-                        </div>
-                    </div>
-                </div>
-                    
-                <div class="form-group">
-                    <button type="submit" class="form-control btn btn-success col-md-3 offset-md-3">Envoyer</button>
-                </div>
-            </form>
-        </article>
     </section>
 
 <?php 
