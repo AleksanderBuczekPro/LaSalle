@@ -1,6 +1,6 @@
 <?php 
     require_once('parts/header.php');
-    $connecteur = new PDO('mysql:host=localhost;dbname=lasalle','salledesport','webforce3');
+    $connecteur = new PDO('mysql:host=localhost;dbname=salledesport','root','');
 ?>
 
     <section class="fluid-container row justify-content-around" id="admin">
