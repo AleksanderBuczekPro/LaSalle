@@ -48,7 +48,7 @@
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                         <div class="modal-body">
-                                            <form  class="container form-horizontal" action="parts/connexion.php">
+                                            <form  class="container form-horizontal" method="POST" action="parts/connexion.php">
                                                 <h2 class="text-center">Connexion</h2>
                                                 <div class="row form-group">
                                                     <label class="control-label col-md-3" for="email">Email :</label>
@@ -57,9 +57,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <label class="control-label col-md-3" for="mdp">Mot de passe :</label>
+                                                    <label class="control-label col-md-3" for="motdepasse">Mot de passe :</label>
                                                     <div class="col-md-9">  
-                                                        <input type="password" name="mdp" class="form-control" placeholder="Password" required/>
+                                                        <input type="password" name="motdepasse" class="form-control" placeholder="Password" required/>
                                                     </div>
                                                 </div>
                                                 <div class="text-center">
@@ -72,7 +72,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </li>
+                        </li>                   
                     </ul>
                 </div>
             </div>

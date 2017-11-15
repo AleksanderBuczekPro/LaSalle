@@ -32,9 +32,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-md-3" for="mdp">Mot de passe :</label>
+                    <label class="control-label col-md-3" for="motdepasse">Mot de passe :</label>
                     <div class="col-md-9">  
-                        <input type="password" class="form-control" id="mdp" name="mdp" required>
+                        <input type="password" class="form-control" id="motdepasse" name="motdepasse" required>
                     </div>
                 </div>
                 <div class="form-group">
