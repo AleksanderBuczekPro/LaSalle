@@ -1,5 +1,6 @@
 <?php 
     require_once('parts/header.php');
+    $connecteur = new PDO('mysql:host=localhost;dbname=lasalle','salledesport','webforce3');
 ?>
 
     <section class="fluid-container row justify-content-around" id="admin">
@@ -47,25 +48,54 @@
                 <div class="form-group">
                     <label class="control-label col-md-3" for="intitule">Intitulé :</label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" name="intitule" id="intitule" required>
+                        <select class="form-control" name="intitule" id="intitule" required>
+                            <?php
+                                $intitule = $connecteur->query('SELECT intitule FROM activite');
+                                while ($donnees = $intitule->fetch()) 
+                                    { 
+                            ?>
+                                        <option value="<?php echo $donnees['intitule']; ?>"> <?php echo $donnees['intitule']; ?> </option> 
+                            <?php   } ?>
+
+                        </select>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label col-md-3" for="coach">Coach :</label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" name="coach" id="coach" required>
+                        <select class="form-control" name="coach" id="coach" required>
+                            <?php
+                                $coach = $connecteur->query('SELECT nomcomplet FROM coach');
+                                while ($donnees = $coach->fetch()) 
+                                    { 
+                            ?>
+                                        <option value="<?php echo $donnees['nomcomplet']; ?>"> <?php echo $donnees['nomcomplet']; ?> </option> 
+                            <?php   } ?>
+
+                        </select>
                     </div>
                 </div>
+                
+                <div class="form-group">
+                    <label class="control-label col-md-3" for="salle">Salle :</label>
+                    <div class="col-md-9">
+                        <select class="form-control" name="salle" id="salle" required>
+                            <?php
+                                $salle = $connecteur->query('SELECT nom FROM salle');
+                                while ($donnees = $salle->fetch()) 
+                                    { 
+                            ?>
+                                        <option value="<?php echo $donnees['nom']; ?>"> <?php echo $donnees['nom']; ?> </option> 
+                            <?php   } ?>
+
+                        </select>
+                    </div>
+                </div>
+
                 <div class="form-group">
                     <label class="control-label col-md-3" for="dated">Date Heure debut :</label>
                     <div class="col-md-9">
                         <input type="text" class="form-control" name="dated" id="dated" placeholder="20YY-MM-JJ HH:MM:SS" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label class="control-label col-md-3" for="datef">Date Heure fin :</label>
-                    <div class="col-md-9">
-                        <input type="text" class="form-control" name="datef" id="datef" placeholder="20YY-MM-JJ HH:MM:SS" required>
                     </div>
                 </div>
                 <div class="form-group">
@@ -76,7 +106,7 @@
 
         <article class="col-md-5" id="Activité">
             <form class="container form-horizontal" method="post" action="form/factivite.php">
-                <h2 class="text-center">Séance</h2>
+                <h2 class="text-center">Activité</h2>
                 <div class="form-group">
                     <label class="control-label col-md-3" for="intitule">Intitulé :</label>
                     <div class="col-md-9">
