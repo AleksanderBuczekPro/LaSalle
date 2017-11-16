@@ -58,7 +58,7 @@
                                                     <div class="row form-group">
                                                         <label class="control-label col-md-3" for="email">Email :</label>
                                                         <div class="col-md-9">
-                                                            <input type="text" name="email" class="form-control" placeholder="Adresse mail" required/>
+                                                            <input type="email" name="email" class="form-control" placeholder="Adresse mail" required/>
                                                         </div>
                                                     </div>
                                                     <div class="row form-group">
