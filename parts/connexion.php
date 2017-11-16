@@ -90,7 +90,7 @@ if (isset($email,$motdepasse))
       }
       else
       {   /* Le email ou le mot de passe sont incorrect */
-        header("Location: ../index.php");
+        header("Location: ../error.php");
       }
     }
     catch (PDOException $e)
