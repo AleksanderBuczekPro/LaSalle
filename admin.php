@@ -160,10 +160,16 @@
                             </div>
                         </div>
                         <div class="form-group row">
+                            <label class="control-label col-md-3" for="nlicense">N° License :</label>
+                            <div class="col-md-9">
+                                <input type="text" name="nlicense" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
                         <label class="control-label col-md-3" for="coach">Heure début :</label>
                             <div class="col-md-9">
                                 <div class='input-group time' id='timepicker'>
-                                <input type='text' class="form-control" />
+                                <input type='text' name="heured" class="form-control" />
                                 <span class="input-group-addon">
                                     <span class="fa fa-clock-o"></span>
                                 </span>
@@ -174,7 +180,7 @@
                         <label class="control-label col-md-3" for="coach">Heure fin :</label>
                             <div class="col-md-9">
                                 <div class='input-group time' id='timepicker2'>
-                                <input type='text' class="form-control" />
+                                <input type='text' name="heuref" class="form-control" />
                                 <span class="input-group-addon">
                                     <span class="fa fa-clock-o"></span>
                                 </span>
