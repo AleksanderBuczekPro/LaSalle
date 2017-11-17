@@ -26,7 +26,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/locale/fr.js"> </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.9.4/umd/popper.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> 
+
         
         <script type="text/javascript" src="js/collapse.js"></script>
         <script type="text/javascript" src="js/transition.js"></script>
@@ -56,7 +57,7 @@
                         up: "fa fa-arrow-up",
                         down: "fa fa-arrow-down"
                     }
-                });
+                });            
             </script>
 
             <script src="js/app.js"></script>

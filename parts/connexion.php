@@ -22,12 +22,6 @@ if (isset($email,$motdepasse))
   /* Si $email et $motdepasse différents de null */
   if(isset($email,$motdepasse)) 
   {
-    /* Connexion au serveur : dans cet exemple, en local sur le serveur d'évaluation
-    A MODIFIER avec vos valeurs */
-    $hostname = "localhost";
-    $database = "salledesport";
-    $username = "root";
-    $password = "";
     
     /* Configuration des options de connexion */
     
@@ -43,7 +37,7 @@ if (isset($email,$motdepasse))
     /* Connexion */
     try
     {
-      $connect = new PDO('mysql:host='.$hostname.';dbname='.$database, $username, $password, $pdo_options);
+      require_once('../form/connecteur.php');
     }
     catch (PDOException $e)
     {
@@ -56,7 +50,7 @@ if (isset($email,$motdepasse))
     try
     {
       /* Préparation de la requête*/
-      $req_prep = $connect->prepare($requete);
+      $req_prep = $connecteur->prepare($requete);
       
       /* Exécution de la requête en passant les marqueurs et leur variables associées dans un tableau*/
       $req_prep->execute(array(':nom'=>$email,':motdepasse'=>$motdepasse));
