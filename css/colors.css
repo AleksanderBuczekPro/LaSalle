@@ -736,6 +736,10 @@ blockquote p {
 /*----------------------------------------------
 * Modal
 ----------------------------------------------*/
+.nav-item p {
+    color: white;
+}
+
 body.modal-open, 
 .modal-open .navbar-fixed-top, 
 .modal-open .navbar-fixed-bottom 

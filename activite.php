@@ -8,10 +8,9 @@
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
                             <div class="brand">
-                                <h1 class="heading-light">Les activité</h1>
+                                <h1 class="heading-light">Les activités</h1>
                                 <p class="lead mb-5">
-                                    Tous les jours a la salle, des activité dans divers sport sont organisé, comment des cours de boxe, des séance de cross-fit ... A vous de voir ce qui vous intérèse.
-                                </p>
+                                    Tous les jours à la salle, des activités dans divers sports sont organisées, comme des cours de boxe, des séances de cross-fit... À vous de voir ce qui vous intéresse.
                                 <a href="#activite" class="btn btn-outline-white btn-round btn-md page-scroll">
                                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
                                 </a>
