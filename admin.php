@@ -97,12 +97,28 @@
                                 </select>
                             </div>
                         </div>
+<!--                    <div class="form-group row">
+                            <label class="control-label col-md-3" for="dated">Date Heure debut :</label>
+                            <div class="col-md-9">
+                                <input type="text" class="form-control" name="date" placeholder="20YY-MM-JJ HH:MM:SS" required>
+                            </div>
+                        </div> -->
+
+
                         <div class="form-group row">
                             <label class="control-label col-md-3" for="dated">Date Heure debut :</label>
                             <div class="col-md-9">
-                                <input type="text" class="form-control" name="dated" placeholder="20YY-MM-JJ HH:MM:SS" required>
+                                <div class='input-group date' id='timepicker3'>
+                                    <input type='text' name="date" class="form-control" />
+                                    <span class="input-group-addon">
+                                        <span class="fa fa-calendar"></span>
+                                    </span>
+                                </div>
                             </div>
                         </div>
+
+
+
                         <div class="form-group row">
                             <button type="submit" class="form-control btn btn btn-outline-secondary btn-round col-md-4 offset-md-4">
                                 <i class="fa fa-check" aria-hidden="true"></i>
