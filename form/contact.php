@@ -5,7 +5,7 @@
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 
-	$connecteur = new PDO('mysql:host=localhost;dbname=salle_fitness', 'salledesport', 'hopeforce3'); 
+	require_once('connecteur.php');
 
 	$connecteur->exec("INSERT INTO formulaire (nom, email, message, dateEnvoi) VALUES ('". $nom . "', '" . $email . "', '" . $message . "', NOW())");
 
