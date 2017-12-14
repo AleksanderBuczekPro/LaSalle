@@ -93,6 +93,7 @@
                         <div class="form-group mt-4">
                             <textarea class="form-control" name="message" max-length="2000" placeholder="Que voulez vous savoir" rows="5" required></textarea>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LeA5jwUAAAAAOTpMhNt9dloydhR_2yD2Ch-Bja5"></div>
                         <div class="form-group mt-4">
                             <input type="submit" class="btn btn-primary btn-round" value="Envoyez votre message" />
                         </div>

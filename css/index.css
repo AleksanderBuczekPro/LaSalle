@@ -9,11 +9,17 @@
 	color:#fff;
 }
 #home{
-	height:92vh;
+	height: 100vh;
 }
 
 #features{
+	height: 95vh;
 	background-color: #f2f2f2;
+}
+
+#contact{
+	height: 100vh;
+
 }
 .fluid-container > .row{
 	max-width: 1903px;	

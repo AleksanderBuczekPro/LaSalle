@@ -65,7 +65,7 @@ body, button, input, optgroup, select, textarea {
     position: relative;
 }
 .brand {
-    margin-top: 20vh;
+    margin: 25vh 0;
     color: #fff;
     text-align: center;
 }

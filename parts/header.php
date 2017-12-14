@@ -14,11 +14,19 @@
         <link rel="stylesheet" href="css/colors.css" />
         <link rel="stylesheet" href="css/index.css" />
 
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+
     </head>
     <body>
 
+
+
+       <!--  <nav class="navbar fixed-top navbar-light bg-light">
+          <a class="navbar-brand" href="#">Fixed top</a>
+        </nav>
+ -->
         <!--header-->
-        <nav class="navbar navbar-toggleable-md sticky-navigation">
+        <nav class="navbar fixed-top navbar-toggleable-md">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
                     <img id="logo" src="img/logo.png" class="nav-brand-logo" />
