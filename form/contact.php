@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< Updated upstream
 	$nom = $_POST['nom'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
@@ -9,6 +10,17 @@
 	$connecteur->exec("INSERT INTO formulaire (nom, email, message, dateEnvoi) VALUES ('". $nom . "', '" . $email . "', '" . $message . "', NOW())");
 
 	/*print_r($connecteur->errorInfo());
+=======
+
+	require_once('connecteur.php');
+
+		$connecteur->exec("INSERT INTO formulaire (nom, email, message, dateEnvoi) VALUES ('". $nom . "', '" . $email . "', '" . $message . "', NOW())");
+		/*print_r($connecteur->errorInfo());
+		
+		
+	
+		$date = date('d-m-Y');
+>>>>>>> Stashed changes
 
 	$date = date('d-m-Y');
 

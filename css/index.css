@@ -1,3 +1,5 @@
+/*header.php*/
+
 .logo{
 	background-color:#fff;
 }
@@ -8,6 +10,11 @@
 #navlink a{
 	color:#fff;
 }
+.text-primary{
+   color:#fff!important
+}
+
+/*index.php*/
 #home{
 	height:92vh;
 }
@@ -31,7 +38,7 @@
 		margin: 40px;
 	}
 
-
+/*activite.php*/
 #activite td{
 	width: 160px;
 	height: 30px;
@@ -42,10 +49,72 @@
 #activite h2{
 	margin-bottom: 80px;
 }
-.text-primary{
-   color:#fff!important
+
+/*salle.php*/
+#top{
+	padding:0px 0px 0px 0px;
 }
-#admin{
-	padding-top: 120px;
+#background{
+	background-image: url('../img/salle.jpg');
+	height: 92vh;
+}
+#background2{
+	background-color: rgba(0,0,0,0.5);
+	height: 92vh;
+	position: absolute;
+	top: 0px;
 	width: 100%;
+}
+#header-salle{
+	height: 92vh;
+	margin-top: 16vh;
+	width: 100%;
+}
+#titre .brand{
+	text-align: left;
+}
+
+#titre .brand h1{
+	font-size: 80px;
+}
+#titre .brand p{
+	font-size: 60px;
+}
+#logo ul{
+	display: table;
+	width: 100%;
+}
+#logo li{
+	display: table-cell;
+	font-size: 30px;
+}
+#boutton{
+	margin: 0 auto;
+	margin-bottom: 10vh;
+}
+
+#apropos{
+}
+/*admin.php*/
+#admin{
+	width: 100%;
+	background-color:#f2f2f2;
+}
+#admin label{
+	line-height: 42px;
+}
+#admin .cadre{
+	background-color: #fff;
+	padding: 40px 30px 40px 30px;
+}
+#coach, #activite{
+	margin-top: 80px;
+}
+#admin select,#admin input{
+	height: calc(2.25rem + 12px);
+}
+/*footer.php*/
+.footer{
+	padding-bottom: 0;
+	background-color: #000;
 }

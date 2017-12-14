@@ -10,7 +10,7 @@
 	$dateexp = strtotime ( '+1 year' , strtotime ( $datedeb ) ) ;
     $dateexp = date ( 'Y-m-j' , $dateexp );
 	
-	$connecteur=new PDO('mysql:host=localhost;dbname=lasalle','salledesport','webforce3');
+	require_once('connecteur.php');
 	$connecteur->exec("INSERT INTO adherent(prenom, nom, email, motdepasse, numero, dateInscription, dateExpiration) VALUES('".$prenom."', '".$nom."', '".$mail."', '".$mdp."', '".$numclient."', '".$datedeb."', '".$dateexp."')");
 	
 	header("Location: ../admin.php");

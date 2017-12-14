@@ -19,21 +19,22 @@
                 </div>
             </section>
 
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <!--custom js-->
-        <script src="js/app.js"></script>
+        <script
+              src="https://code.jquery.com/jquery-2.2.4.js"
+              integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+              crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/locale/fr.js"> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.9.4/umd/popper.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> 
 
-            <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
         
-
+        <script type="text/javascript" src="js/collapse.js"></script>
+        <script type="text/javascript" src="js/transition.js"></script>
+        
             <!-- Moment.js -->
 
-       
 
-
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"> </script>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
 
@@ -46,6 +47,17 @@
                       down: "fa fa-chevron-down"
                     }
                 });
+
+                $("#timepicker3").datetimepicker({
+                    format: "YYYY-MM-DD HH:mm",
+
+                    icons: {
+                        time: "fa fa-clock-o",
+                        date: "fa fa-calendar",
+                        up: "fa fa-arrow-up",
+                        down: "fa fa-arrow-down"
+                    }
+                });            
             </script>
 
             <script src="js/app.js"></script>
