@@ -16,12 +16,11 @@
 
 /*index.php*/
 #home{
-	height:100vh;
+	height:92vh;
 }
 
 #features{
 	background-color: #f2f2f2;
-	height:100vh;
 }
 .fluid-container > .row{
 	max-width: 1903px;	
@@ -38,10 +37,6 @@
 	#features .content{
 		margin: 40px;
 	}
-
-#contact{
-	height:100vh;
-}
 
 /*activite.php*/
 #activite td{
