@@ -7,13 +7,17 @@
         <meta name="description" content="La salle" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Bootstrap 4-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> 
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> -->
+
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
         <!--custom css-->
-        <link rel="stylesheet" href="css/components.css" />
-        <link rel="stylesheet" href="css/colors.css" />
-        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="../web/css/components.css" />
+        <link rel="stylesheet" href="../web/css/colors.css" />
+        <link rel="stylesheet" href="../web/css/index.css" />
 
     </head>
     <body>
